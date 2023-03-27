@@ -64,3 +64,13 @@ else if (month == 2) {
 else if (month == 3) {
     console.log('31 Days')
 }
+
+//  Following second
+// Write a program that asks for a time under the form of three information (hours, minutes, seconds). The program calculates and shows the time one second after. Incorrect inputs must be taken into account.
+
+// This is not as simple as it seems... Look at the following results to see for yourself:
+
+// 14h17m59s should give 14h18m0s
+// 6h59m59s should give 7h0m0s
+// 23h59m59s should give 0h0m0s (midnight)
+
